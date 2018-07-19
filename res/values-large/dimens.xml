@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="explain_txt">27dp</dimen>
+    <dimen name="txt_size">25dp</dimen>
+    <dimen name="profil_layout_margin_top">70dp</dimen>
+    
+    
+
+</resources>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/arkaplan"
+    > 
+<RelativeLayout 
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+  
+    >
+    
+          <ImageView
+              android:layout_marginTop="3dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/logo"
+         />
+          
+                        <ImageView
+                  android:layout_marginTop="10dp"
+                  android:layout_centerInParent="true"
+                  android:layout_below="@+id/logo"
+        android:id="@+id/image_profil"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        />
+                        
+                        <TextView
+         android:textStyle="bold"
+         android:textColor="@color/black"
+         android:layout_marginTop="20dp"
+         android:textSize="20dp"
+        android:layout_below="@+id/image_profil"
+        android:id="@+id/yolcu_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adı:" />
+                        
+                            <TextView
+        android:textColor="@color/black"
+         android:layout_marginTop="20dp"
+        android:layout_below="@+id/image_profil"
+       
+        android:textSize="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_toEndOf="@+id/yolcu_name"
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+                            
+                             <TextView
+         android:textStyle="bold"
+         android:textColor="@color/black"
+         android:layout_marginTop="20dp"
+         android:textSize="20dp"
+        android:layout_below="@+id/yolcu_name"
+        android:id="@+id/yolcu_soyadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SoyAdı:" />
+                             
+                                 <TextView
+        android:textColor="@color/black"
+         android:layout_marginTop="20dp"
+        android:layout_below="@+id/yolcu_name"
+       
+        android:textSize="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_toEndOf="@+id/yolcu_soyadi"
+        android:id="@+id/txt_soyadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+     <TextView
+         android:textStyle="bold"
+         android:textColor="@color/black"
+         android:layout_marginTop="20dp"
+         android:textSize="20dp"
+        android:layout_below="@+id/yolcu_soyadi"
+        android:id="@+id/ranklabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kalkış Noktası:" /> 
+
+    <TextView
+        android:textColor="@color/black"
+         android:layout_marginTop="20dp"
+        android:layout_below="@+id/yolcu_soyadi"
+       
+        android:textSize="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_toEndOf="@+id/ranklabel"
+        android:id="@+id/txt_nereden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+     <TextView
+          android:textStyle="bold"
+         android:textColor="@color/black"
+         android:textSize="20dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/countrylabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ranklabel"
+        android:text="Varış Noktası:" /> 
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginTop="22dp"
+        android:textSize="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_toEndOf="@+id/countrylabel"
+        android:id="@+id/txt_nereye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ranklabel"
+        />
+
+     <TextView
+          android:textStyle="bold"
+         android:textColor="@color/black"
+         android:text="Ücret:"
+         android:textSize="20dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/populationlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countrylabel"
+        /> 
+
+    <TextView
+        android:layout_marginTop="22dp"
+        android:textColor="@color/black"
+        
+        android:textSize="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_toEndOf="@+id/populationlabel"
+        android:id="@+id/txt_masraf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countrylabel"
+       />
+    
+    <TextView
+          android:textStyle="bold"
+         android:textColor="@color/black"
+         android:text="Mesafe Km:"
+         android:textSize="20dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/mesafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/populationlabel"
+        />
+    
+        <TextView
+        android:layout_marginTop="22dp"
+        android:textColor="@color/black"
+        
+        android:textSize="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_toEndOf="@+id/mesafe"
+        android:id="@+id/txt_mesafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/populationlabel"
+       />
+        
+            <TextView
+          android:textStyle="bold"
+         android:textColor="@color/black"
+         android:text="Boş Koltuk Sayısı:"
+         android:textSize="20dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/boskoltuksayisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mesafe"
+        />
+
+            
+                    <TextView
+        android:layout_marginTop="22dp"
+        android:textColor="@color/black"
+        
+        android:textSize="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_toEndOf="@+id/boskoltuksayisi"
+        android:id="@+id/txt_boskoltuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mesafe"
+       />
+                    
+                    <fragment 
+               android:layout_marginTop="10dp"
+               android:layout_below="@+id/boskoltuksayisi"
+    android:id="@+id/map_yolcululukarim"
+    android:name="com.google.android.gms.maps.MapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="200dp" />
+                    
+                                        <TextView
+        android:layout_marginTop="22dp"
+        android:textColor="@color/black"
+        
+        
+        
+        
+        android:id="@+id/tx"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/map_yolcululukarim"
+       />
+
+</RelativeLayout>
+</ScrollView>

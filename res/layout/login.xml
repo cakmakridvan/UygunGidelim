@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/arkaplan"
+    > 
+<LinearLayout  
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    
+     >
+     
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_gravity="top"
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:src="@drawable/logo" />
+
+<!--     <TextView
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:id="@+id/txt_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uygun Gidelim'e Hoşgeldiniz"
+        android:textSize="@dimen/explain_txt"
+        android:layout_gravity="left"
+        	 /> -->
+        	 
+        	 
+    
+<!--         <TextView
+        android:textStyle="bold"
+        android:id="@+id/txt_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adı:"
+        android:textSize="@dimen/txt_size"
+        android:layout_gravity="left"
+        android:padding="10dp"
+        	 /> -->
+
+        <EditText
+            android:id="@+id/edt_txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adı"
+            android:inputType="textPersonName" >
+
+            <requestFocus />
+        </EditText>
+        
+        
+
+<!--         <TextView
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textSize="@dimen/txt_size"
+            android:id="@+id/txt_Soyad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soyadı:" /> -->
+
+        <EditText
+            android:id="@+id/edt_txt_soyad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Soyadı"
+            android:inputType="textPersonName" />
+
+<!--         <TextView
+            android:textSize="@dimen/txt_size"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:id="@+id/txt_Tckimlik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tc Kimlik No:" /> -->
+
+        <EditText
+            android:hint="T.C.Kimlik No"
+            android:maxLength="11"
+            android:id="@+id/edt_txt_tckimilkno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+<!--         <TextView
+            android:textSize="@dimen/txt_size"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:id="@+id/txt_eposta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-Posta Adresi:" /> -->
+
+        <EditText
+            android:hint="E-Posta Adresi"
+            android:id="@+id/edt_txt_eposta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:inputType="textPersonName" />
+
+<!--         <TextView
+            android:textSize="@dimen/txt_size"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:id="@+id/txt_ceptel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cep Tel:" /> -->
+
+        <EditText
+            android:id="@+id/edt_txt_ceptel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cep Tel."
+            android:inputType="numberDecimal" />
+
+<!--         <TextView
+            android:textSize="@dimen/txt_size"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:id="@+id/txt_dogum_tarihi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doğum Tarihi:" /> -->
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="3"
+     >
+    
+            <EditText
+            android:hint="GG"
+            android:id="@+id/edt_txt_tarih_gun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal" 
+            android:maxLength="2"
+            />
+            
+                        <EditText
+            android:hint="AA"
+            android:id="@+id/edt_txt_tarih_ay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal" 
+            android:maxLength="2"
+            />
+                        
+                                    <EditText
+            android:hint="YYYY"
+            android:id="@+id/edt_txt_tarih_yil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal" 
+            android:maxLength="4"
+            />
+    
+            </LinearLayout>
+
+<!--         <TextView
+            android:textSize="@dimen/txt_size"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:id="@+id/txt_parola"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parola:" /> -->
+
+        <EditText
+            android:id="@+id/edt_parola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Parola"
+            android:inputType="textPassword" />
+
+<!--         <TextView
+            android:textSize="@dimen/txt_size"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:id="@+id/txt_parola_tekra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parola Tekrar:" /> -->
+
+        <EditText
+            android:id="@+id/edt_parolatekrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Parola(yeniden)"
+            android:inputType="textPassword" />
+
+        <Button
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:paddingTop="10dp"
+            android:textSize="@dimen/txt_size"
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/stylebutton_startup_uyeol"
+             />
+        
+        
+
+</LinearLayout>
+</ScrollView> 

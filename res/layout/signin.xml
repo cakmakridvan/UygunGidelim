@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+     >
+
+    <!-- <TextView
+        android:textColor="@color/black"
+        android:id="@+id/txt_giristext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uygun Gidelim'e Hoşgeldiniz"
+        android:textSize="@dimen/explain_txt"
+        android:layout_gravity="left"
+        android:textStyle="bold"
+         /> -->
+         
+         <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_gravity="top"
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:src="@drawable/logo" />
+
+<!--     <TextView
+        android:id="@+id/txt_eposta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-Posta Adresiniz:"
+        android:textSize="@dimen/explain_txt"
+        android:layout_gravity="left"
+        android:padding="10dp"
+         /> -->
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/edt_signin_eposta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-Posta Adresi"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+<!--     <TextView
+        android:textSize="@dimen/explain_txt"
+        android:layout_gravity="left"
+        android:padding="10dp"
+        android:id="@+id/txt_parolaq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parola:" /> -->
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:hint="Parola"
+        android:id="@+id/edt_signin_parola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_giris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebutton_startup_giris"
+         />
+
+</LinearLayout>

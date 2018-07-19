@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/arkaplan"
+     >
+     
+
+
+    <!-- <TextView
+        android:textStyle="bold"
+        android:id="@+id/ranklabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nereden" /> -->
+
+    <TextView
+         android:textColor="#2E2E2E"
+        android:layout_below="@+id/logom"
+        android:textSize="14dp"
+        android:id="@+id/txt_nereden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ranklabel" />
+    
+        <TextView
+             android:textColor="#2E2E2E"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+        android:textSize="20dp"
+        android:text="-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/txt_nereden" />
+
+    <!-- <TextView
+        android:textStyle="bold"
+        android:id="@+id/countrylabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ranklabel"
+        android:text="Nereye" /> -->
+
+    <TextView
+        android:layout_marginTop="10dp"
+         android:textColor="#2E2E2E"
+        android:textSize="14dp"
+        android:id="@+id/txt_nereye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_nereden"
+         />
+
+    <!-- <TextView
+        android:id="@+id/populationlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countrylabel"
+        android:text="@string/populationlabel" /> -->
+        
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="#2E2E2E"
+            android:layout_gravity="center"
+            android:id="@+id/ucret"
+            android:textSize="15dp"
+        android:text="Ücret:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_nereye"
+        
+         />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txt_nereye"
+        android:id="@+id/txt_masraf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/ucret"
+        android:textColor="#2E2E2E"
+        android:textSize="14dp" />
+    
+    <TextView
+        android:layout_marginTop="10dp"
+         android:textColor="#2E2E2E"
+        android:textSize="15dp"    
+        android:text="Tarih:"
+        android:id="@+id/tarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ucret"
+         />
+    
+        <TextView
+            android:layout_marginTop="10dp"
+             android:textColor="#2E2E2E"
+        android:textSize="14dp"
+        android:id="@+id/txt_tarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ucret"
+        android:layout_toEndOf="@+id/tarih"
+         />
+
+    <ImageView
+        
+        android:layout_marginTop="3dp"
+        android:id="@+id/flag"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:background="#000000"
+        />
+
+</RelativeLayout>

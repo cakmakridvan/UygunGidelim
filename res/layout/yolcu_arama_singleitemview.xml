@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/arkaplan"
+    > 
+
+<RelativeLayout 
+    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   
+     >
+     
+              <ImageView
+              android:layout_marginTop="3dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/lgo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/logo"
+         />
+              
+              <ImageView
+                  android:layout_marginTop="10dp"
+                  android:layout_centerInParent="true"
+                  android:layout_below="@+id/lgo"
+        android:id="@+id/imageView1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        />
+              
+              <TextView
+                  android:layout_marginLeft="2dp"
+         android:textStyle="bold"
+         android:textColor="@color/black"
+         android:layout_marginTop="20dp"
+         android:textSize="20dp"
+        android:layout_below="@+id/imageView1"
+        android:id="@+id/yolcu_adi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adı:" />
+              
+                  <TextView
+        android:textColor="@color/black"
+         android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageView1"
+       
+        android:textSize="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_toEndOf="@+id/yolcu_adi"
+        android:id="@+id/get_yolcuadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+              
+                  
+            <TextView
+                android:layout_marginLeft="2dp"
+         android:textStyle="bold"
+         android:textColor="@color/black"
+         android:layout_marginTop="20dp"
+         android:textSize="20dp"
+        android:layout_below="@+id/yolcu_adi"
+        android:id="@+id/yolcu_soyadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SoyAdı:" />
+                  
+            
+            <TextView
+        android:textColor="@color/black"
+         android:layout_marginTop="20dp"
+        android:layout_below="@+id/yolcu_adi"
+       
+        android:textSize="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_toEndOf="@+id/yolcu_soyadi"
+        android:id="@+id/get_yolcusoyadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+     <TextView
+         android:layout_marginLeft="2dp"
+         android:textStyle="bold"
+         android:textColor="@color/black"
+         android:layout_marginTop="20dp"
+         android:textSize="20dp"
+        android:layout_below="@+id/yolcu_soyadi"
+        android:id="@+id/ranklabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kalkış Noktası:" /> 
+
+    <TextView
+        android:textColor="@color/black"
+         android:layout_marginTop="20dp"
+        android:layout_below="@+id/yolcu_soyadi"
+       
+        android:textSize="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_toEndOf="@+id/ranklabel"
+        android:id="@+id/txt_nereden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+     <TextView
+         android:layout_marginLeft="2dp"
+          android:textStyle="bold"
+         android:textColor="@color/black"
+         android:textSize="20dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/countrylabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ranklabel"
+        android:text="Varış Noktası:" /> 
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginTop="22dp"
+        android:textSize="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_toEndOf="@+id/countrylabel"
+        android:id="@+id/txt_nereye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ranklabel"
+        />
+
+     <TextView
+         android:layout_marginLeft="2dp"
+          android:textStyle="bold"
+         android:textColor="@color/black"
+         android:text="Ücret:"
+         android:textSize="20dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/populationlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countrylabel"
+        /> 
+
+    <TextView
+        android:layout_marginTop="22dp"
+        android:textColor="@color/black"
+        
+        android:textSize="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_toEndOf="@+id/populationlabel"
+        android:id="@+id/txt_masraf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countrylabel"
+       />
+    
+    
+         <TextView
+             android:layout_marginLeft="2dp"
+          android:textStyle="bold"
+         android:textColor="@color/black"
+         android:text="Tarih:"
+         android:textSize="20dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/tarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/populationlabel"
+        /> 
+        
+                  <TextView
+         android:layout_toEndOf="@+id/tarih"
+         android:textColor="@color/black"
+         android:textSize="20dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/get_tarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/populationlabel"
+        /> 
+        
+                  <TextView
+                      android:layout_marginLeft="2dp"
+          android:textStyle="bold"
+         android:textColor="@color/black"
+         android:text="Tip:"
+         android:textSize="20dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/Tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tarih"
+        />
+                  
+                                    <TextView
+
+         android:textColor="@color/black"
+         android:layout_toEndOf="@+id/Tip"
+         android:textSize="20dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/get_Tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tarih"
+        />
+                                    
+                         <TextView
+                             android:layout_marginLeft="2dp"
+          android:textStyle="bold"
+         android:textColor="@color/black"
+         android:text="Durum:"
+         android:textSize="20dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/durum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Tip"
+        />
+                         
+                         <TextView
+        
+         android:textColor="@color/black"
+         android:layout_toEndOf="@+id/durum"
+         android:textSize="20dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/get_durum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Tip"
+        />
+                         
+                         <TextView
+                             android:layout_marginLeft="2dp"
+          android:textStyle="bold"
+         android:textColor="@color/black"
+         android:text="Mesafe Km:"
+         android:textSize="20dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/mesafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/durum"
+        />
+                         
+          <TextView
+        
+         android:textColor="@color/black"
+         android:layout_toEndOf="@+id/mesafe"
+         android:textSize="20dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/get_mesafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/durum"
+        />
+          
+                                   <TextView
+                                       android:layout_marginLeft="2dp"
+          android:textStyle="bold"
+         android:textColor="@color/black"
+         android:text="Boş Koltuk Sayısı:"
+         android:textSize="20dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/boskoltuksayisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mesafe"
+        />
+                                   
+          <TextView
+        
+         android:textColor="@color/black"
+         android:layout_toEndOf="@+id/boskoltuksayisi"
+         android:textSize="20dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/get_boskoltuksayisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mesafe"
+        />
+                         
+           <fragment 
+               android:layout_marginTop="10dp"
+               android:layout_below="@+id/boskoltuksayisi"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.MapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="200dp" />
+           
+                   <LinearLayout 
+                       
+                       android:layout_marginTop="10dp"
+    android:id="@+id/button_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:layout_below="@+id/map"
+     >
+        
+        
+    
+</LinearLayout>
+
+                   <TextView
+        android:layout_marginTop="22dp"
+        android:textColor="@color/black"
+        android:id="@+id/txm"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/button_layout"
+       />
+    
+
+</RelativeLayout>
+</ScrollView>

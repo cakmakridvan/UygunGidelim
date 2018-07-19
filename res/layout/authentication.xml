@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/arkaplan"
+    
+     >
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:id="@+id/txt_validate_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lütfen Cep Telefonunuza Gönderilen Kodu Giriniz"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/edt_get_validate_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginTop="20dp"
+         >
+        
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_send_login_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gönder" />
+
+</LinearLayout>

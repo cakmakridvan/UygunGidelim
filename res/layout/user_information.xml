@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/arkaplan"
+     >
+     
+        <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_gravity="top"
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:src="@drawable/logo" />
+        
+        <LinearLayout 
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="30dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     >
+
+                    <TextView
+            android:textStyle="bold"
+            android:text="Adı:"
+            android:textColor="@color/black"
+            android:id="@+id/uye_adi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            />
+            
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/txt_uye_adi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            />
+        </LinearLayout>
+        
+                <LinearLayout 
+    android:layout_marginLeft="5dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     >
+                        <TextView
+            android:textStyle="bold"
+            android:text="Soyadı:"
+            android:textColor="@color/black"
+            android:id="@+id/uye_soyadi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            />
+                        
+                <TextView
+            android:textColor="@color/black"
+            android:id="@+id/txt_uye_soyadi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            />
+                </LinearLayout>
+                
+       <LinearLayout 
+    android:layout_marginLeft="5dp"       
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     >
+               
+<!--              <TextView
+            android:textStyle="bold"
+            android:text="UyeID:"
+            android:textColor="@color/black"
+            android:id="@+id/uye_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            />
+           
+                <TextView
+            android:textColor="@color/black"
+            android:id="@+id/txt_uye_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            /> -->
+                
+                </LinearLayout>
+                
+              <LinearLayout
+    android:layout_marginLeft="5dp"               
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     >
+                <TextView
+            android:textStyle="bold"
+            android:text="Eposta:"
+            android:textColor="@color/black"
+            android:id="@+id/uye_eposta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            />
+                
+                  <TextView
+            android:textColor="@color/black"
+            android:id="@+id/txt_uye_eposta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            />
+                
+                     </LinearLayout>  
+                     
+        
+    <LinearLayout
+    android:layout_marginLeft="5dp"     
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     >
+              
+             <TextView
+            android:textStyle="bold"
+            android:text="Cep Telefonu:"
+            android:textColor="@color/black"
+            android:id="@+id/uye_cep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            />
+             
+                          <TextView
+            android:textColor="@color/black"
+            android:id="@+id/txt_uye_cep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            />
+             
+             </LinearLayout>
+
+</LinearLayout>
